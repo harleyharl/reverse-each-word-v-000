@@ -7,10 +7,10 @@ def reverse_each_word(sentence1)
   reversed_sentence.join(" ")
 end
 
-def reverse_each_word(sentence2)
-  individual_words = sentence2.split
-  individual_words.collect do |word|
-    word.reverse
-  end
-  # individual_words.join(" ")
-end
+# def reverse_each_word(sentence2)
+#   individual_words = sentence2.split
+#   individual_words.collect do |word|
+#     word.reverse
+#   end
+#   # individual_words.join(" ")
+# end
